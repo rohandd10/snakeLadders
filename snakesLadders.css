@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F0F8FF; /* Light blue */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #FFF; /* White */
+    border: 5px solid #FF69B4; /* Hot pink */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    color: #FF1493; /* Deep pink */
+}
+.players {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.player {
+    border: 2px solid #FF69B4; /* Hot pink */
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #FFC0CB; /* Pink */
+}
+h2 {
+    color: #FF69B4; /* Hot pink */
+}
+.score {
+    font-size: 40px;
+    color: #000080; /* Navy blue */
+}
+.last-roll {
+    font-size: 18px;
+    color: #008000; /* Green */
+}
+button {
+    margin-top: 10px;
+    background-color: #FF69B4; /* Hot pink */
+    color: #FFF; /* White */
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+    background-color: #FF1493; /* Deep pink */
+}
